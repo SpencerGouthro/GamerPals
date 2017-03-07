@@ -1,0 +1,33 @@
+#welcomeText {
+	margin-top:4.2rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:5rem;
+}
+
+#controllerDiv {
+	width:100%;
+	padding:15px;
+}
+.controllerImages {
+	max-width:150px;
+	max-height:150px;
+}
+#ps4 {
+	float:left;
+}
+#xbox {
+	float:right;
+}
+
+#signUpForm {
+	padding:25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+#signUpForm:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+#signUpForm p {
+	font-size: 1.15em;
+}

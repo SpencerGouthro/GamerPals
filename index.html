@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GamerPals App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class='container'>
+		<div class='row'>
+			<div id="controllerDiv" class="col-xs-12">
+				<div class='col-sm-2 hidden-sm hidden-xs'>
+					<img class="controllerImages img-responsive" id="xbox" src="images/controllerxbox.png">
+				</div>
+				<div id="header" class="col-md-8 col-sm-12">
+					<h2 id="welcomeText">Welcome to GamerPals!</h2><br>
+				</div>
+				<div class='col-sm-2 hidden-sm hidden-xs'>
+					<img class="controllerImages img-responsive" id="ps4" src="images/controllerps4.png">
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div id='mainContentDiv' class="col-sm-6 col-sm-offset-3">
+				<h4>GamerPals allows you to connect with new gaming friends! <br><br> You can create communities, organize meet-ups, and even create tournaments! </h4><br>
+				<form id="signUpForm">
+					<p>Interested in joining? <br> Simply fill out your account profile and get started immediately!</p>
+				  	<div class="divWithInput">
+					  	E-mail: <br>
+					  	<input type="text" name="email"><br>
+					</div>	  	
+					<div class="divWithInput">
+					  	Password: <br>
+					  	<input type="password" name="password"><br>
+					</div><br> 
+					<button class="btn btn-md btn-primary">Create Profile</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
