@@ -2,7 +2,14 @@ body {
 	background-image: url("images/patterngood.svg");
 	background-color: white;
 }
+/*#header {
+	background-color: rgba(245, 245, 245, 0.7);
+	margin-top: 10px;
+	padding-bottom: 15px;
+}*/
 #headerText {
+		background-color: rgba(245, 245, 245, 0.7);
+
 	margin-top:4.2rem;
 	text-align: center;
 	text-transform: uppercase;
@@ -12,13 +19,9 @@ body {
 	text-shadow:1px 1px white;
 }
 
-#controllerDiv {
-	width:100%;
-	padding:15px;
-}
 .controllerImages {
-	max-width:200px;
-	max-height:200px;
+	max-width:175px;
+	max-height:175px;
 }
 #ps4 {
 	float:left;
@@ -38,7 +41,7 @@ body {
 }
 
 #infoText {
-	margin:10px;
+	padding-right:1.5em;
 }
 @media (min-width: 991px) {
 	#infoText {
@@ -51,6 +54,9 @@ body {
 	padding: 0.5em;
 }
 
+#signUpForm {
+	margin-right:1.5em;
+}
 #signUpForm p {
 	font-size: 1.3em;
 	padding:10px;
