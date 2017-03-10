@@ -1,3 +1,3 @@
-function clicked() {
-    alert("This button don't do nutin right now!");
+function createProfile() {
+    alert("This website isn't finished yet, Sorry ehh!");
 }

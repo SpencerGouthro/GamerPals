@@ -1,8 +1,15 @@
-#welcomeText {
+body {
+	background-image: url("images/patterngood.svg");
+	background-color: white;
+}
+#headerText {
 	margin-top:4.2rem;
 	text-align: center;
 	text-transform: uppercase;
-	font-size:5rem;
+	font-size:6rem;
+	font-family: Delius;
+	color: #222;
+	text-shadow:1px 1px white;
 }
 
 #controllerDiv {
@@ -10,8 +17,8 @@
 	padding:15px;
 }
 .controllerImages {
-	max-width:150px;
-	max-height:150px;
+	max-width:200px;
+	max-height:200px;
 }
 #ps4 {
 	float:left;
@@ -20,14 +27,42 @@
 	float:right;
 }
 
-#signUpForm {
+#mainContentDiv {
 	padding:25px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    background-color: rgba(245, 245, 245, 0.75);
 }
-#signUpForm:hover {
+#mainContentDiv:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
+
+#infoText {
+	margin:10px;
+}
+@media (min-width: 991px) {
+	#infoText {
+			border-right: 1px solid rgba(2,2,2,0.3);
+	}
+}
+#infoText h4 {
+	font-size: 1.5em;
+	font-family: Delius;
+	padding: 0.5em;
+}
+
 #signUpForm p {
-	font-size: 1.15em;
+	font-size: 1.3em;
+	padding:10px;
+	margin-top: 10px;
+}
+.textInputs {
+	font-size: 1.3em;
+	padding: 0.8em;
+	margin: 0.5em;
+	width:100%;
+}
+.submitButton {
+	margin-top: 10px;
+	margin-left: 5px;
 }
