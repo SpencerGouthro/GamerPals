@@ -7,7 +7,7 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	font-size:6rem;
-	font-family: Delius;
+	font-family: Assistant;
 	color: #222;
 	text-shadow:1px 1px white;
 }
@@ -47,7 +47,7 @@ body {
 }
 #infoText h4 {
 	font-size: 1.5em;
-	font-family: Delius;
+	font-family: Assistant;
 	padding: 0.5em;
 }
 
